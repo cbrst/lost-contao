@@ -1,0 +1,26 @@
+{
+  "name": "lost-contao",
+  "version": "0.1.0",
+  "description": "Combining the Contao grid you know with the power of Lost Grid you love",
+  "main": "gulpfile.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/crshd/lost-contao.git"
+	},
+  "bugs": {
+    "url": "https://github.com/crshd/lost-contao/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^6.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "lost": "^6.7.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christian \"crshd\" Brassat",
+  "license": "MIT"
+}
