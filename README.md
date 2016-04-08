@@ -1,5 +1,5 @@
 <div style="text-align: center">
-![Lost Contao](http://crshd.github.io/lost-contao/images/lost-contao.png)
+![Lost Contao](http://crshd.github.io/lost-contao/images/lost-contao.png "Lost Contao")
 </div>
 
 Ever wished for better grid in Contao? I did.
