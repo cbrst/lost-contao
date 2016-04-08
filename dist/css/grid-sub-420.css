@@ -1,23 +1,20 @@
-@media screen and (max-width: 420px) {
-	*[class^="grid"] {
-		-webkit-box-flex: 0;
-		-webkit-flex: 0 0 auto;
-		    -ms-flex: 0 0 auto;
-		        flex: 0 0 auto;
-		width: calc(99.99% * 12/12 - (30px - 30px * 12/12));
-	}
-	*[class^="grid"]:nth-child(1n) {
-		margin-right: 30px;
-	}
-	*[class^="grid"]:last-child {
-		margin-right: 0;
-	}
-	*[class^="grid"]:nth-child(12n) {
-		float: right;
-	}
-	*[class^="grid"]:nth-child(12n) {
-		margin-right: 0;
-	}
+*[class^="grid"] {
+	width: calc(99.99% * 12/12 - (30px - 30px * 12/12));
+}
+*[class^="grid"]:nth-child(1n) {
+	float: left;
+	margin-right: 30px;
+	clear: none;
+}
+*[class^="grid"]:last-child {
+	margin-right: 0;
+}
+*[class^="grid"]:nth-child(12n) {
+	margin-right: 0;
+	float: right;
+}
+*[class^="grid"]:nth-child(12n + 1) {
+	clear: left;
 }
 
 /*# sourceMappingURL=grid-sub-420.css.map */
