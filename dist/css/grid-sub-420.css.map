@@ -1,1 +1,0 @@
-{"version":3,"sources":["css/grid-sub-420.css"],"names":[],"mappings":"AAAA;CACC,oDAAmB;CACnB;AAFD;CACC,YAAmB;CAAnB,mBAAmB;CAAnB,YAAmB;CACnB;AAFD;CACC,gBAAmB;CACnB;AAFD;CACC,gBAAmB;CAAnB,aAAmB;CACnB;AAFD;CACC,YAAmB;CACnB","file":"css/grid-sub-420.css","sourcesContent":["*[class^=\"grid\"] {\n\tlost-column: 12/12;\n}\n"],"sourceRoot":"/source/"}
