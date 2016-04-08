@@ -1,0 +1,11 @@
+/* Undo some of the stuff the reset stylesheet does */
+
+/* First element in a block shouldn't nave a margin */
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+	margin-top: 0;
+}

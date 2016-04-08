@@ -1,0 +1,15 @@
+@media screen and (max-width: 768px) {
+	.grid1,
+	.grid2,
+	.grid3,
+	.grid4 {
+		lost-column: 4/12;
+	}
+
+	.grid5
+	.grid6
+	.grid7
+	.grid8 {
+		lost-column: 12/12;
+	}
+}

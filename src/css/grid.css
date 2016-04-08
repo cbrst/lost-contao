@@ -22,36 +22,47 @@ div[class^="mod"] {
 .grid1 {
 	lost-column: 1/12;
 }
+
 .grid2 {
 	lost-column: 2/12;
 }
+
 .grid3 {
 	lost-column: 3/12;
 }
+
 .grid4 {
 	lost-column: 4/12;
 }
+
 .grid5 {
 	lost-column: 5/12;
 }
+
 .grid6 {
 	lost-column: 6/12;
 }
+
 .grid7 {
 	lost-column: 7/12;
 }
+
 .grid8 {
 	lost-column: 8/12;
 }
+
 .grid9 {
 	lost-column: 9/12;
 }
+
 .grid10 {
 	lost-column: 10/12;
 }
+
 .grid11 {
 	lost-column: 11/12;
 }
+
 .grid12 {
 	lost-column: 12/12;
 }
@@ -60,33 +71,43 @@ div[class^="mod"] {
 .offset1 {
 	lost-offset: 1/12;
 }
+
 .offset2 {
 	lost-offset: 2/12;
 }
+
 .offset3 {
 	lost-offset: 3/12;
 }
+
 .offset4 {
 	lost-offset: 4/12;
 }
+
 .offset5 {
 	lost-offset: 5/12;
 }
+
 .offset6 {
 	lost-offset: 6/12;
 }
+
 .offset7 {
 	lost-offset: 7/12;
 }
+
 .offset8 {
 	lost-offset: 8/12;
 }
+
 .offset9 {
 	lost-offset: 9/12;
 }
+
 .offset10 {
 	lost-offset: 10/12;
 }
+
 .offset11 {
 	lost-offset: 11/12;
 }
@@ -94,36 +115,4 @@ div[class^="mod"] {
 /* cycle */
 .last {
 	margin-right: 0;
-}
-
-/*
-██████  ███████ ███████ ██████   ██████  ███    ██ ███████ ██ ██    ██ ███████
-██   ██ ██      ██      ██   ██ ██    ██ ████   ██ ██      ██ ██    ██ ██
-██████  █████   ███████ ██████  ██    ██ ██ ██  ██ ███████ ██ ██    ██ █████
-██   ██ ██           ██ ██      ██    ██ ██  ██ ██      ██ ██  ██  ██  ██
-██   ██ ███████ ███████ ██       ██████  ██   ████ ███████ ██   ████   ███████
-*/
-
-/* Time to get freaky! */
-
-@media screen and (max-width: 768px) {
-	.grid1,
-	.grid2,
-	.grid3,
-	.grid4 {
-		lost-column: 4/12;
-	}
-
-	.grid5
-	.grid6
-	.grid7
-	.grid8 {
-		lost-column: 12/12;
-	}
-}
-
-@media screen and (max-width: 420px) {
-	*[class^="grid"] {
-		lost-column: 12/12;
-	}
 }
