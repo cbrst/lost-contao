@@ -70,47 +70,47 @@ div.formbody {
 
 /* ... and them offsets */
 .offset1 {
-	lost-offset: 1/12;
+	lost-offset: -1/12;
 }
 
 .offset2 {
-	lost-offset: 2/12;
+	lost-offset: -2/12;
 }
 
 .offset3 {
-	lost-offset: 3/12;
+	lost-offset: -3/12;
 }
 
 .offset4 {
-	lost-offset: 4/12;
+	lost-offset: -4/12;
 }
 
 .offset5 {
-	lost-offset: 5/12;
+	lost-offset: -5/12;
 }
 
 .offset6 {
-	lost-offset: 6/12;
+	lost-offset: -6/12;
 }
 
 .offset7 {
-	lost-offset: 7/12;
+	lost-offset: -7/12;
 }
 
 .offset8 {
-	lost-offset: 8/12;
+	lost-offset: -8/12;
 }
 
 .offset9 {
-	lost-offset: 9/12;
+	lost-offset: -9/12;
 }
 
 .offset10 {
-	lost-offset: 10/12;
+	lost-offset: -10/12;
 }
 
 .offset11 {
-	lost-offset: 11/12;
+	lost-offset: -11/12;
 }
 
 /* cycle */
