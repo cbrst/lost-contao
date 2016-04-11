@@ -15,7 +15,8 @@ body.show_grid {
 */
 
 /* Let's define them grids ... */
-div[class^="mod"] {
+div[class^="mod"],
+div.formbody {
 	lost-flex-container: row;
 }
 
