@@ -13,6 +13,10 @@ This is an excercise in integrating Lost Grid's flexy goodness into Contao as a 
 
 ## Usage
 
+### Building
+
+LostContao is written using PostCSS. A Gulp script is included to build proper CSS, which can then be imported using Contao's "import CSS" function.
+
 ### Compatibility
 
 It's mostly consistent at what it does. Not 100% compatible. You'll have to adjust your style a bit.
@@ -39,3 +43,10 @@ Switches `flex-flow` to `column wrap` instead of `row wrap`
 
 - **Leo Feyer** and the [team around **Contao**](https://contao.org/de/ueber-contao.html)
 - **Peter Ramsing** for [lost](https://github.com/peterramsing/lost)
+
+---
+
+[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
+[![forthebadge](http://forthebadge.com/images/badges/pretty-risque.svg)](http://forthebadge.com)
+[![forthebadge](http://forthebadge.com/images/badges/fuck-it-ship-it.svg)](http://forthebadge.com)
+[![forthebadge](http://forthebadge.com/images/badges/uses-badges.svg)](http://forthebadge.com)
